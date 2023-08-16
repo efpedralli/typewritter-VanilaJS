@@ -1,0 +1,18 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#fascom-typewritter{
+    display: flex;
+    justify-content: center;
+}
+.cor-final{
+    margin: auto;
+    text-align: center;
+}
+.cor-final span{
+    transition: 0.5s;
+    color: #301541 !important;
+}
+@media screen and (orientation: portrait){
+    #fascom-typewritter span{
+        font-size: calc(var(--v)*65px);
+    }
+}
